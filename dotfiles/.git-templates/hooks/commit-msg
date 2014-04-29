@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+mesg="$(cat "$1")"
+mesg=`echo ${mesg:0:1} | tr '[a-z]' '[A-Z]'`${mesg:1}
+echo '*'$mesg > "$1" 
