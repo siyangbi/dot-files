@@ -1,0 +1,5 @@
+[user]
+	name = Siyang Bi
+	email = siyang.bi@gmail.com
+[init]
+	templatedir = ~/.git-templates
